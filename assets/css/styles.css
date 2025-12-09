@@ -4,9 +4,10 @@
     margin-top: 5%;
     margin: 5px;
     justify-content: center;
+    flex-wrap: wrap; 
 }
 
- button{
+button{
     border-radius: 8px;
     padding: 8px 25px;
     font-size: 18px;
@@ -15,16 +16,49 @@
     background-color: rgb(107, 208, 174);
     color: aliceblue;
     border-color: brown;
- }
+    transition: all 0.2s ease;
+}
 
- button:hover{
+button:hover{
     padding: 8.5px 25.5px;
     background-color: rgb(11, 163, 163);
+}
 
- }
-
- h1{
+h1{
     text-align: center;
     font-size: 52px;
     color: rgb(1, 36, 36);
- }
+}
+
+
+@media (max-width: 600px) {
+
+    .main-container{
+        flex-direction: column;
+        gap: 1rem;
+        margin: 20px;
+        align-items: center;
+    }
+
+    button{
+        width: 90%;        
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 36px;  
+    }
+}
+
+
+@media (max-width: 400px) {
+    button{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
