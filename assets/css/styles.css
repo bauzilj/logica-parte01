@@ -1,0 +1,30 @@
+.main-container{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 5%;
+    margin: 5px;
+    justify-content: center;
+}
+
+ button{
+    border-radius: 8px;
+    padding: 8px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(107, 208, 174);
+    color: aliceblue;
+    border-color: brown;
+ }
+
+ button:hover{
+    padding: 8.5px 25.5px;
+    background-color: rgb(11, 163, 163);
+
+ }
+
+ h1{
+    text-align: center;
+    font-size: 52px;
+    color: rgb(1, 36, 36);
+ }
